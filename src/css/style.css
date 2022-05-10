@@ -7,27 +7,84 @@
   .cabecalho {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    margin-right: 10%;
-    padding: 50px 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+  }
+
+  .cabecalho-logo {
+    width: 100px;
+    height: 100px;
   }
   
   .cabecalho-nevegacao {
     display: flex;
     gap: 32px;
-    font-size: 25px; 
+    font-size: 20px; 
   }
 
   .conteudo {
-    border-top: 1px solid #000000;    
+    border-top: 3px solid #000000;    
    }
+
+  .conteudo-apresentacao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .conteudo-apresentacao-titulo {
+    font-size: 30px;
+    padding: 50px 0 0;
+  }
+
+  .conteudo-apresentacao-subtitulo {
+    font-size: 20px;
+    padding-bottom: 60px;
+  }
+
+  .conteudo-apresentacao-itens {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+  }
+
+  .conteudo-apresentacao-foto {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .conteudo-apresentacao-botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .conteudo-apresentacao-botao {
+    background-color: #3f3f3f;
+    width: 130px;
+    height: 40px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    font-weight: 200;
+    font-size: 14px;
+    color: #ffffff;
+  }
+
+  .conteudo-apresentacao-botao:hover {
+    background-color: #000000;
+  }
   
   .conteudo-principal {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 150px;
+    padding: 100px 150px;
     gap: 15%;
   }
 
@@ -39,12 +96,12 @@
 
   .conteudo-principal-titulo {
     font-weight: 800;
-    font-size: 40px;
+    font-size: 30px;
   }  
 
   .conteudo-principal-subtitulo {
     font-weight: 600;
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .lista-principal {
@@ -52,11 +109,7 @@
     margin-left: 5%;
   }
 
-  .conteudo-principal-foto {
-    width: 500px;
-    height: 500px;
-    border-radius: 100%;
-  }
+  
   
 
   
