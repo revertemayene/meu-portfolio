@@ -6,7 +6,7 @@
 
 <div align="center">
 
- [👀 Visualize clicando aqui](revertemayene.github.io/meu-portfolio/)
+ [👀 Visualize clicando aqui](https://revertemayene.github.io/meu-portfolio/) 
 
 </div> 
 
