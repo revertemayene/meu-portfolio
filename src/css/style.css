@@ -6,19 +6,57 @@
   
   .cabecalho {
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
     margin-right: 10%;
-    padding: 24px;
+    padding: 50px 0;
   }
   
   .cabecalho-nevegacao {
     display: flex;
     gap: 32px;
-    font-size: 18px; 
+    font-size: 25px; 
   }
+
+  .conteudo {
+    border-top: 1px solid #000000;    
+   }
   
-  .conteudo-principal-apresentacao-foto {
-    width: 300px;
-    height: 300px;
+  .conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 150px;
+    gap: 15%;
+  }
+
+  .conteudo-principal-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .conteudo-principal-titulo {
+    font-weight: 800;
+    font-size: 40px;
+  }  
+
+  .conteudo-principal-subtitulo {
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+  .lista-principal {
+    font-size: 20px;
+    margin-left: 5%;
+  }
+
+  .conteudo-principal-foto {
+    width: 500px;
+    height: 500px;
     border-radius: 100%;
   }
+  
+
+  
