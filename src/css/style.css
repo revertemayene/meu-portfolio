@@ -32,6 +32,14 @@
     align-items: center;
     flex-direction: column;
   }
+
+  .conteudo-apresentacao-foto {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin-top: 50px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.5);
+  }
   
   .conteudo-apresentacao-titulo {
     font-size: 30px;
@@ -48,13 +56,6 @@
     flex-direction: row;
     align-items: center;
     gap: 100px;
-  }
-
-  .conteudo-apresentacao-foto {
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.5);
   }
 
   .conteudo-apresentacao-botoes {
