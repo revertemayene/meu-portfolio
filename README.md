@@ -1,5 +1,5 @@
 <h1 align="center">
- 🚧 Este Readme ainda está em construção 🚧
+ 🚧 Este Readme está em construção 🚧
 </h1>
 
 <p align="center">Este é meu portfólio que está em construção.</p>
