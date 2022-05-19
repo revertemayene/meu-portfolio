@@ -46,6 +46,7 @@
 
 .cabecalho-navegacao-item {
   color: var(--cor-padrao4);
+  transition: 1s;
 }
 
 .cabecalho-navegacao-item:hover {
@@ -115,6 +116,7 @@
   font-weight: 200;
   font-size: 17px;
   color: #fff;
+  transition: 1s;
 }
 
 .conteudo-apresentacao-botao:hover {
